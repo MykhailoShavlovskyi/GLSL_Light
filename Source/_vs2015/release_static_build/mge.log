@@ -1,0 +1,51 @@
+﻿Сборка начата 11.04.2017 20:35:04.
+     1>Проект "C:\Users\Миша\Desktop\Study\Quarter2.2 - Done\3dRendering\assignment3\_vs2015\mge.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\Progs\VisualStudio\VC\bin\CL.exe /c /I../src /I..\vs_extended\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D SFML_STATIC /D GLEW_STATIC /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"release_static_build/" /Fd"release_static_build/vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\mge\MGEDemo.cpp
+         MGEDemo.cpp
+     1>C:\Users\Миша\Desktop\Study\Quarter2.2 - Done\3dRendering\assignment3\src\mge/core/Light.hpp(18): warning C4091: static : пропускается слева от "Light::Type", когда ни одна переменная не объявлена
+     1>..\src\mge\MGEDemo.cpp(179): warning C4305: аргумент: усечение из "double" к "float"
+     1>..\src\mge\MGEDemo.cpp(182): warning C4305: аргумент: усечение из "double" к "float"
+     1>..\src\mge\MGEDemo.cpp(200): warning C4305: аргумент: усечение из "double" к "float"
+     1>..\src\mge\MGEDemo.cpp(203): warning C4305: аргумент: усечение из "double" к "float"
+     1>..\src\mge\MGEDemo.cpp(218): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+     1>..\src\mge\MGEDemo.cpp(226): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>..\src\mge\MGEDemo.cpp(227): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>..\src\mge\MGEDemo.cpp(235): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>..\src\mge\MGEDemo.cpp(236): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+       Link:
+         D:\Progs\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"release_static_exe/mge.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\vs_extended\lib glew32s.lib "sfml-graphics-s.lib" "sfml-window-s.lib" "sfml-audio-s.lib" "sfml-system-s.lib" opengl32.lib freetype.lib jpeg.lib winmm.lib gdi32.lib openal32.lib flac.lib vorbisenc.lib vorbisfile.lib vorbis.lib ogg.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"release_static_exe/mge.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"release_static_exe/mge.lib" /MACHINE:X86 /SAFESEH release_static_build/main.obj
+         release_static_build/AbstractBehaviour.obj
+         release_static_build/KeysBehaviour.obj
+         release_static_build/LookAt.obj
+         release_static_build/OrbitBehaviour.obj
+         release_static_build/RotatingBehaviour.obj
+         release_static_build/AbstractGame.obj
+         release_static_build/Camera.obj
+         release_static_build/GameObject.obj
+         release_static_build/Light.obj
+         release_static_build/Mesh.obj
+         release_static_build/Renderer.obj
+         release_static_build/ShaderProgram.obj
+         release_static_build/Texture.obj
+         release_static_build/World.obj
+         release_static_build/AbstractMaterial.obj
+         release_static_build/ColorMaterial.obj
+         release_static_build/LitMaterial.obj
+         release_static_build/TextureMaterial.obj
+         release_static_build/MGEDemo.obj
+         release_static_build/Slider.obj
+         release_static_build/DebugHud.obj
+         release_static_build/LightUtil.obj
+         Создание кода
+         2 of 1255 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Создание кода завершено
+     1>glew32s.lib(glew.obj) : warning LNK4099: "glew_static.pdb" PDB не найден с "glew32s.lib(glew.obj)" или на "C:\Users\Миша\Desktop\Study\Quarter2.2 - Done\3dRendering\assignment3\_vs2015\release_static_exe\glew_static.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+         mge.vcxproj -> C:\Users\Миша\Desktop\Study\Quarter2.2 - Done\3dRendering\assignment3\_vs2015\release_static_exe/mge.exe
+     1>Сборка проекта "C:\Users\Миша\Desktop\Study\Quarter2.2 - Done\3dRendering\assignment3\_vs2015\mge.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:04.33
